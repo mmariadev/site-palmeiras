@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(0, 29, 0), rgb(1, 105, 32));
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}

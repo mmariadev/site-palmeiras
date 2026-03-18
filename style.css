@@ -47,23 +47,30 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 15px;
-    padding: 150px 20px 50px 20px; /* O padding-top de 150px evita que o menu ou a logo cubram os quadros */
+    gap: 60px;               /* Distância entre as fotos */
     flex-wrap: wrap;
+    
+    /* --- ESTILO DA MOLDURA FUNDO AZUL --- */
+    background: linear-gradient(to right rgb(2, 92, 2), rgb(7, 143, 48));/* Cor azul escuro do fundo da imagem */
+    padding: 15px;           /* Espaço interno para as fotos não colarem na borda */
+    border-radius: 15px;     /* Bordas arredondadas da moldura */
+    margin: 50px 20px 50px 20px; /* O primeiro valor (150px) afasta do topo/menu */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.336); /* Sombra leve para dar profundidade */
 }
 
+
 .quadro-noticia {
-    width: 210px;
+    width: 300px;
     background-color: #106408; /* Azul fiel à imagem */
     border: 5px solid #ffffff;
-    border-radius: 4px;
+    border-radius: 2px;
     overflow: hidden;
 }
 
 .moldura-foto {
     background-color: white;
     padding: 5px;
-    height: 200px;
+    height: 300px;
 }
 
 .moldura-foto img {

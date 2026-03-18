@@ -6,6 +6,7 @@ body {
 
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
     text-align: center;
     border: 15px solid green;
     background: green;
@@ -22,4 +23,71 @@ h1 {
   top: 5px;                
   left: 200px;               
   object-fit: cover; 
+}
+
+.menu {
+    position:absolute;
+    right: 200px;
+    top: -15px;
+  color: white;
+  width: 50px;
+  padding: 10px;
+  list-style-type: disc; /* bolinhas */
+  
+}
+
+.menu li {
+  margin: 3px 0; /* espaço entre os itens */
+  cursor: pointer;
+}
+
+/* --- SEÇÃO DOS QUADRINHOS (ADICIONE AO FINAL DO ARQUIVO) --- */
+
+.area-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 150px 20px 50px 20px; /* O padding-top de 150px evita que o menu ou a logo cubram os quadros */
+    flex-wrap: wrap;
+}
+
+.quadro-noticia {
+    width: 210px;
+    background-color: #106408; /* Azul fiel à imagem */
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.moldura-foto {
+    background-color: white;
+    padding: 5px;
+    height: 200px;
+}
+
+.moldura-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.legenda-azul {
+    color: white;
+    text-align: center;
+    padding: 12px 5px;
+    font-family: sans-serif;
+}
+
+.legenda-azul h3 {
+    margin: 0;
+    font-size: 14px;
+    border: none;      /* Garante que o border do seu H1 global não apareça aqui */
+    background: none;  /* Garante que o background do seu H1 global não apareça aqui */
+    padding: 0;
+}
+
+.legenda-azul p {
+    margin: 6px 0 0 0;
+    font-size: 11px;
 }

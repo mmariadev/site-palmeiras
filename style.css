@@ -97,37 +97,35 @@ h1 {
     font-size: 11px;
 }
 
-/* A moldura azul escura grande */
 .area-conteudo-escalacao {
-    background-color: #06410f; /* Azul escuro do fundo */
-    border-radius: 50px;       /* Cantos bem arredondados como na imagem */
-    padding: 40px;
-    margin: 50px auto;         /* Centraliza o painel na tela */
-    width: 90%;                /* Largura do painel */
-    text-align: center;        /* Centraliza o texto "Escalação" */
+    background-color: #06410f; 
+    border-radius: 50px;       
+    padding: 20px;
+    margin: 50px auto;         
+    width: 90%;                
+    text-align: center;        
 }
 
 .titulo-escalacao {
-    color: #000;               /* Cor preta como na imagem */
+    color: #000;               
     font-family: sans-serif;
     font-weight: bold;
     margin-bottom: 30px;
     font-size: 24px;
-    /* Resetando estilos do seu h1 global */
     border: none;
     background: none;
     padding: 0;
 }
 
-/* Alinhamento dos jogadores lado a lado */
+
 .lista-jogadores {
     display: flex;
-    justify-content: space-around; /* Distribui os jogadores igualmente */
+    justify-content: space-around; 
     flex-wrap: wrap;
     gap: 20px;
 }
 
-/* Estilo de cada jogador (Ícone + Nome) */
+
 .item-jogador {
     display: flex;
     flex-direction: column;
@@ -136,7 +134,7 @@ h1 {
 }
 
 .item-jogador img {
-    width: 150px;               /* Tamanho do ícone do bonequinho */
+    width: 150px;               
     margin-bottom: 10px;
 }
 
